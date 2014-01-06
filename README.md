@@ -27,22 +27,16 @@ in your PATH, and ensure it's set executable:
 
 and run it like this:
 
-`dis ok`
+`dis ok`: Allow distractions; ie. comment out disallowed domain names
+so they can be resolved.
 
-Allow distractions; ie. comment out disallowed domain names so they
-can be resolved.
+`dis off`: Disallow distractions: resolve disallowed domains to
+127.0.0.1 (ie. local machine) so the site is not available.
 
-`dis off`
+`dis add domain`: Add new site to distractables list; ie. "dis add
+twitter.com"
 
-Disallow distractions: resolve disallowed domains to 127.0.0.1
-(ie. local machine) so the site is not available.
+`dis list`: List domains on distraction list.
 
-`dis add domain`
-
-Add new site to distractables list; ie. "dis add twitter.com"
-
-`dis list`
-
-List domains on distraction list.
 
 
