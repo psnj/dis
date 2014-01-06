@@ -20,7 +20,29 @@ Caveats
 Usage
 -----
 
- dis ok: allow distractions
- dis off: disallow distractions
- dis add domain (eg. twitter.com): add new site to distractables
- dis list: list domains on distraction list"
+Dis is a command line tool. Clone or download it, install it somewhere
+in your PATH, and ensure it's set executable:
+
+ chmod +x dis
+
+and run it like this:
+
+`dis ok`
+
+Allow distractions; ie. comment out disallowed domain names so they
+can be resolved.
+
+`dis off`
+
+Disallow distractions: resolve disallowed domains to 127.0.0.1
+(ie. local machine) so the site is not available.
+
+`dis add domain`
+
+Add new site to distractables list; ie. "dis add twitter.com"
+
+`dis list`
+
+List domains on distraction list.
+
+
