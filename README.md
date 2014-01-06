@@ -7,15 +7,6 @@ works by making entries to your /etc/hosts that will override
 your machine's DNS resolution, ensuring that the (un)desired
 sites won't be available when you don't want them to be.
 
-Caveats
--------
-
- * This is only tested on Mac OS X, but should work on Linux too.
-
- * It requires superuser (admin) access to modify /etc/hosts, so
-   you'll need an admin password. It also assumes that your machine's
-   sudo configuration will allow you to run bash, sed and perl. (On
-   Mac OS X, it does by default.)
 
 Usage
 -----
@@ -39,4 +30,13 @@ twitter.com"
 `dis list`: List domains on distraction list.
 
 
+Caveats
+-------
+
+ * This is only tested on Mac OS X, but should work on Linux too.
+
+ * It requires superuser (admin) access to modify /etc/hosts, so
+   you'll need an admin password. It also assumes that your machine's
+   sudo configuration will allow you to run bash, sed and perl. (On
+   Mac OS X, it does by default.)
 
