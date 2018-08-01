@@ -1,7 +1,7 @@
 dis
-===
+========================================================================
 
-Dis is a very very simple tool for managing Internet distractions
+Dis is a very, very simple tool for managing Internet distractions
 when you're supposed to be working instead of screwing around. It
 works by making entries to your /etc/hosts that will override
 your machine's DNS resolution, ensuring that the (un)desired
@@ -9,7 +9,7 @@ sites won't be available when you don't want them to be.
 
 
 Usage
------
+------------------------------------------------------------------------
 
 Dis is a command line tool. Clone or download it, install it somewhere
 in your PATH, and ensure it's set executable:
@@ -31,7 +31,7 @@ twitter.com"
 
 
 Caveats
--------
+------------------------------------------------------------------------
 
  * This is only tested on Mac OS X, but should work on Linux too.
 
