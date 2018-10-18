@@ -39,5 +39,3 @@ Caveats
    you'll need an admin password. It also assumes that your machine's
    sudo configuration will allow you to run bash, sed and perl. (On
    Mac OS X, it does by default.)
-
- * You shouldn't even need this. Show some discipline!
